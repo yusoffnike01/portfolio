@@ -19,7 +19,9 @@ const Resume = () => {
         <motion.div variants={fadeInUp} initial='initial' animate='animate'>
           <h5 className='my-3 text-2xl font-bold'>Education</h5>
           <div className=''>
-            <h5 className='my-2 text-xl font-bold'>Computer Science</h5>
+            <h5 className='my-2 text-xl font-bold'>
+              Bachelor’s Degree in Computer Science (Software Engineering)
+            </h5>
             <p className='font-semibold'>
               Universiti Malaysia Terengganu (2017-2021)
             </p>
@@ -27,6 +29,12 @@ const Resume = () => {
               <li>
                 Overall CGPA : <span className='font-bold'>3.42</span>
               </li>
+              <li>Participants in open chess tournament</li>
+              <li>
+                silver medal for this innovation at Minggu Penyelidikan dan
+                Inovasi 2020
+              </li>
+              <li>Finalist of unimaker 2019</li>
             </p>
           </div>
         </motion.div>
@@ -36,8 +44,18 @@ const Resume = () => {
             <h5 className='my-2 text-xl font-bold'>Software Developer</h5>
             <p className='font-semibold'>Blue VInegar Sdn Bhd</p>
             <p className='my-3'>
-              <li>Develop Smart toilet system</li>
-              <li>Develop backend loyathe</li>
+              <li>
+                Led a team of 3 in the design, development, implementation, and
+                maintenance of a smart washroom system for one of the tallest
+                twin towers in the world
+              </li>
+
+              <li>
+                development, implementation and maintenance of a
+                gift-with-purchase (GWP) system a subsidiary to one of the
+                largest ecommerce giant in the world
+              </li>
+              <li>Development backend system loyathe using NestJS</li>
             </p>
           </div>
         </motion.div>

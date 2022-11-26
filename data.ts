@@ -22,9 +22,9 @@ export const services:Iservice[] = [
   },
   {
     Icon: AiOutlineApi,
-    title: "API Development",
+    title: "Deployment",
     about:
-      "I can develop robust  REST API using <b>django-rest-api</b>  & <b>Node API</b> ",
+      "deploymet docker in Digital Ocean and AWS (EC2)",
   },
   {
     Icon: MdDeveloperMode,
@@ -35,11 +35,7 @@ export const services:Iservice[] = [
 ]
 
 export const languages: Skill[] = [
-  {
-    Icon: BsCircleFill,
-    name: "Python",
-    level: "45",
-  },
+
   {
     Icon: BsCircleFill,
     name: "JavaScript/TypeScript",
@@ -57,8 +53,8 @@ export const languages: Skill[] = [
   },
   {
     Icon: BsCircleFill,
-    name: "Django",
-    level: "60",
+    name: "Laravel",
+    level: "30",
   },
   {
     Icon: BsCircleFill,
@@ -80,6 +76,11 @@ export const tools: Skill[] = [
   },
   {
     Icon: BsCircleFill,
+    name: "Docker",
+    level: "70",
+  },
+  {
+    Icon: BsCircleFill,
     name: "Fusion360",
     level: "45",
   },
@@ -88,6 +89,16 @@ export const tools: Skill[] = [
     name: "Filmora",
     level: "60",
   },
+  {
+    Icon: BsCircleFill,
+    name: "Digital Ocean",
+    level: "80",
+  }, 
+  {
+    Icon: BsCircleFill,
+    name: "AWS",
+    level: "30",
+  }
 ];
 
 
@@ -140,5 +151,17 @@ export const projects: IProject[] = [
     description:
       "Basic Realtime Chat App where one can create a room can talk to each other",
     key_techs: ["React", "Node", "Chat Engine"],
+  },
+
+  {
+    id: 4,
+    name: "Dashboard Admin",
+    image_path: "/images/admin.png",
+    deployed_url: "https://dashboardadmin.yusoffdev.com/",
+    github_url: "https://github.com/yusoffnike01/adminDashboard",
+    category: ["node", "react"],
+    description:
+      "React Admin Dashboard Template Design",
+    key_techs: ["React"],
   },
 ];
